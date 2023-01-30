@@ -2,31 +2,31 @@
 
 @media (max-width: 1440px) {
   html {
-    font-size: 87.5%;
+    font-size: 93.75%;
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1300px) {
   html {
-    font-size: 75%;
+    font-size: 85%;
   }
   .img-companies .sponsor-div img {
     transform: scale(110%);
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1100px) {
   html {
-    font-size: 62.5%;
+    font-size: 75%;
   }
   .img-companies .sponsor-div img {
     transform: scale(100%);
   }
 }
 
-@media (max-width: 896px) {
+@media (max-width: 970px) {
   html {
-    font-size: 50%;
+    font-size: 60%;
   }
   .img-companies .sponsor-div img {
     transform: scale(80%);
@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 780px) {
   html {
     font-size: 56.25%;
   }
@@ -56,10 +56,6 @@
     gap: 0.25rem;
   }
 
-  /* .hero-with-img {
-    flex-direction: column;
-  } */
-
   .hero-img {
     width: 50%;
   }
@@ -70,6 +66,10 @@
 
   .hero-title-h {
     width: 150%;
+  }
+
+  .section-title {
+    width: 32rem;
   }
   .second-features-grid {
     grid-template-columns: repeat(2, auto);
@@ -128,9 +128,9 @@
     flex: 1 1 40%;
   }
 
-  .icon-box h3 {
+  /* .icon-box h3 {
     font-size: 2.25rem;
-  }
+  } */
 
   .forth-1st-2nd {
     flex-direction: column;
@@ -154,6 +154,9 @@
     display: none;
   }
 
+  .sixth-pricing .section-title {
+    text-align: center;
+  }
   .pricing-plans {
     flex-wrap: wrap;
   }
@@ -218,13 +221,13 @@
     background-color: #ff3e6699;
   }
 }
-@media (min-width: 530px) {
+@media (min-width: 560px) {
   .toggel-menu {
     display: none;
   }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 560px) {
   html {
     font-size: 62.5%;
   }
@@ -393,13 +396,16 @@
   .footer {
     flex-direction: column;
   }
+  .video-icons {
+    /* width: 15%; */
+  }
   .play-icon-contain {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
   }
   .download-icon-contain {
-    width: 0.625rem;
-    height: 0.625rem;
+    width: 1rem;
+    height: 1rem;
   }
 }
 
@@ -437,6 +443,15 @@
     flex: 1 1 60%;
   }
 
+  /* .play-video-icon {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .download-icon {
+    width: 0.5rem;
+    height: 0.5rem;
+  } */
+
   .testmonial-quote {
     font-size: 70%;
   }
@@ -464,7 +479,7 @@
 
 @media (max-width: 140px) {
   html {
-    font-size: 10%;
+    font-size: 20%;
   }
   .img-companies .sponsor-div img {
     transform: scale(20%);
